@@ -15,7 +15,7 @@ pipeline {
          steps {
             echo 'I am in build stage'
             sh '''
-            cd /var/lib/jenkins/workspace/testpipe/samplemvnwar
+            cd samplemvnwar
             mvn clean package
             '''
          }
